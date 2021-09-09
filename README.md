@@ -1,3 +1,14 @@
+<p align="center">
+<a href="https://orchest.io">
+  <img src="imgs/logo.png" width="300px" />
+</a>
+</p>
+<br/>
+
+[Website](https://www.orchest.io) —
+[Main repo](https://github.com/orchest/orchest) —
+[Docs](https://orchest.readthedocs.io/en/stable/)
+
 # Orchest community examples
 
 This is a list of examples submitted by the community 🤗. This list is used by
