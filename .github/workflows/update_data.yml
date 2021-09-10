@@ -29,15 +29,15 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r scripts/requirements.txt
 
-      - name: Process the existing README and update the public_examples_data.json file
+      - name: Process the existing README and update the orchest_examples_data.json file
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          python scripts/readme_management.py process_file --file README.md --output public_examples_data.json
+          python scripts/readme_management.py process_file --file README.md --output orchest_examples_data.json
 
       - run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add public_examples_data.json
-          git commit --allow-empty -m "Updating public_examples_data.json"
+          git add orchest_examples_data.json
+          git commit --allow-empty -m "Updating orchest_examples_data.json"
           git push

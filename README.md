@@ -9,9 +9,9 @@
 [Main repo](https://github.com/orchest/orchest) —
 [Docs](https://orchest.readthedocs.io/en/stable/)
 
-# Orchest community examples
+# Orchest examples
 
-This is a list of examples submitted by the community 🤗. This list is used by
+This is a list of official and community submitted examples 🤗. This list is used by
 Orchest to propose starter examples to users, including information such as the
 author, the number of stars and forks of the repo. If you would like to be part
 of this, make a PR! 
