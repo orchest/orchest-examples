@@ -28,3 +28,4 @@ And thank you 💗!
 ## Examples
 <!-- EXAMPLES_BEGIN -->
 - [Quickstart Pipeline](https://github.com/orchest/quickstart) -<!--o--> A quickstart pipeline that trains some simple models in parallel. <!--o-->-   `quickstart` `machine-learning` `training` `scikit-learn`
+- [Image Super-Resolution](https://github.com/fruttasecca/orchest_pipelines_examples) -<!--o--> Use Image Super-Resolution (ISR) to enhance any image with different methods. <!--o-->-   `python` `super-resolution` `machine-learning` `computer-vision`
