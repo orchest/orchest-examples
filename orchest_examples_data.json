@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-09-16T08:11:10.274058",
+    "creation_time": "2021-09-16T08:59:44.870537",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -14,6 +14,20 @@
             ],
             "title": "Quickstart Pipeline",
             "url": "https://github.com/orchest/quickstart"
+        },
+        {
+            "description": "Use Image Super-Resolution (ISR) to enhance any image with different methods.",
+            "forks_count": 1,
+            "owner": "fruttasecca",
+            "stargazers_count": 0,
+            "tags": [
+                "python",
+                "super-resolution",
+                "machine-learning",
+                "computer-vision"
+            ],
+            "title": "Image Super-Resolution",
+            "url": "https://github.com/fruttasecca/orchest_pipelines_examples"
         }
     ]
 }
