@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-09-17T09:02:20.032896",
+    "creation_time": "2021-09-17T09:42:29.737595",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -28,6 +28,56 @@
             ],
             "title": "Image Super-Resolution",
             "url": "https://github.com/fruttasecca/image_super_resolution"
+        },
+        {
+            "description": "Generate an audio snippet from a text sample and send it as a message on Slack/Discord.",
+            "forks_count": 1,
+            "owner": "ricklamers",
+            "stargazers_count": 2,
+            "tags": [
+                "tts",
+                "audio",
+                "machine-learning"
+            ],
+            "title": "Coqui TTS",
+            "url": "https://github.com/ricklamers/orchest-coqui-tts"
+        },
+        {
+            "description": "An example of how to use Redis and Postgres in an Orchest pipeline.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "postgres",
+                "services"
+            ],
+            "title": "Redis and Postgres",
+            "url": "https://github.com/ricklamers/orchest-redis-postgres"
+        },
+        {
+            "description": "An example pipeline showing how to use multiple languages in a same Orchest pipeline.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 2,
+            "tags": [
+                "environments",
+                "julia",
+                "r",
+                "python"
+            ],
+            "title": "Polyglot: Python, Julia and R in one pipeline",
+            "url": "https://github.com/ricklamers/orchest-multi-language-pipeline"
+        },
+        {
+            "description": "A pipeline that uses the open source Photon library for webscraping. Use this as a starting point for a data ingest pipeline.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "scraping"
+            ],
+            "title": "Web Scraping using Photon",
+            "url": "https://github.com/ricklamers/photon-orchest-pipeline"
         }
     ]
 }
