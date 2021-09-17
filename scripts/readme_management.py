@@ -28,7 +28,9 @@ def log_escaped_error(obj: any) -> str:
 
 async def fetch(session, url):
     async with session.get(url) as response:
-        return await response.json()
+        json = await response.json()
+        code= response.status
+        return code, json
 
 
 async def fetch_all(urls):
@@ -38,7 +40,7 @@ async def fetch_all(urls):
 
     async with aiohttp.ClientSession(headers=headers) as session:
         results = await asyncio.gather(
-            *[fetch(session, url) for url in urls], return_exceptions=True
+            *[fetch(session, url) for url in urls]
         )
         return results
 
@@ -192,7 +194,13 @@ if __name__ == "__main__":
             chunk = parsed_entries[i : i + chunk_size]
             urls = [_github_repo_url_to_api(e["url"]) for e in chunk]
             api_data = asyncio.run(fetch_all(urls))
-            for entry, api_data in zip(chunk, api_data):
+            for entry, (code, api_data) in zip(chunk, api_data):
+                
+                if code != 200:
+                    log_escaped_error(f"{entry} had an unexpected status code: "
+                    f"{code}. Data: {api_data}.")
+                    continue
+
                 entry["owner"] = api_data["owner"]["login"]
                 entry["forks_count"] = api_data["forks_count"]
                 entry["stargazers_count"] = api_data["stargazers_count"]
