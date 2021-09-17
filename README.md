@@ -29,3 +29,7 @@ And thank you 💗!
 <!-- EXAMPLES_BEGIN -->
 - [Quickstart Pipeline](https://github.com/orchest/quickstart) -<!--o--> A quickstart pipeline that trains some simple models in parallel. <!--o-->-   `quickstart` `machine-learning` `training` `scikit-learn`
 - [Image Super-Resolution](https://github.com/fruttasecca/image_super_resolution) -<!--o--> Use Image Super-Resolution (ISR) to enhance any image with different methods. <!--o-->-   `python` `super-resolution` `machine-learning` `computer-vision`
+- [Coqui TTS](https://github.com/ricklamers/orchest-coqui-tts) -<!--o--> Generate an audio snippet from a text sample and send it as a message on Slack/Discord. <!--o-->- `tts` `audio` `machine-learning`
+- [Redis and Postgres](https://github.com/ricklamers/orchest-redis-postgres) -<!--o--> An example of how to use Redis and Postgres in an Orchest pipeline. <!--o-->- `postgres` `services`
+- [Polyglot: Python, Julia and R in one pipeline](https://github.com/ricklamers/orchest-multi-language-pipeline) -<!--o--> An example pipeline showing how to use multiple languages in a same Orchest pipeline. <!--o-->- `environments` `julia` `r` `python`
+- [Web Scraping using Photon](https://github.com/ricklamers/photon-orchest-pipeline) -<!--o--> A pipeline that uses the open source Photon library for webscraping. Use this as a starting point for a data ingest pipeline. <!--o-->- `scraping`
