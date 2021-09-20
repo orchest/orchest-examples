@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-09-20T14:02:30.214964",
+    "creation_time": "2021-09-20T15:02:26.213318",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -31,9 +31,9 @@
         },
         {
             "description": "Generate an audio snippet from a text sample and send it as a message on Slack/Discord.",
-            "forks_count": 1,
+            "forks_count": 2,
             "owner": "ricklamers",
-            "stargazers_count": 2,
+            "stargazers_count": 3,
             "tags": [
                 "tts",
                 "audio",
