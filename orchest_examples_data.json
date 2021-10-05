@@ -1,11 +1,11 @@
 {
-    "creation_time": "2021-10-05T02:12:56.627507",
+    "creation_time": "2021-10-05T03:02:23.401378",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
-            "forks_count": 2,
+            "forks_count": 3,
             "owner": "orchest",
-            "stargazers_count": 7,
+            "stargazers_count": 8,
             "tags": [
                 "quickstart",
                 "machine-learning",
@@ -31,9 +31,9 @@
         },
         {
             "description": "Generate an audio snippet from a text sample and send it as a message on Slack/Discord.",
-            "forks_count": 2,
+            "forks_count": 3,
             "owner": "ricklamers",
-            "stargazers_count": 3,
+            "stargazers_count": 4,
             "tags": [
                 "tts",
                 "audio",
