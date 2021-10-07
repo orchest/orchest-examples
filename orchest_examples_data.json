@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-10-07T10:02:40.808919",
+    "creation_time": "2021-10-07T10:58:59.474220",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -78,6 +78,29 @@
             ],
             "title": "Web Scraping using Photon",
             "url": "https://github.com/ricklamers/photon-orchest-pipeline"
+        },
+        {
+            "description": "A pipeline showcasing how Python and R can be used within the same pipeline. It also shows how you can call the Orchest SDK from within R.",
+            "forks_count": 0,
+            "owner": "orchest-examples",
+            "stargazers_count": 0,
+            "tags": [
+                "r",
+                "python"
+            ],
+            "title": "Mixing R and Python in one pipeline",
+            "url": "https://github.com/orchest-examples/orchest-pipeline-r-python-mix"
+        },
+        {
+            "description": "An example pipeline that uses PyCall to be able to call the Orchest SDK from within Julia.",
+            "forks_count": 0,
+            "owner": "orchest-examples",
+            "stargazers_count": 0,
+            "tags": [
+                "julia"
+            ],
+            "title": "Calling the Orchest SDK from Julia",
+            "url": "https://github.com/orchest-examples/julia-orchest-sdk"
         }
     ]
 }
