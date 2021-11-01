@@ -40,4 +40,4 @@ jobs:
           git config user.email github-actions@github.com
           git add orchest_examples_data.json
           git commit -m "Updating orchest_examples_data.json" || :
-          git push || :
+          git push
