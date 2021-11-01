@@ -39,5 +39,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add orchest_examples_data.json
-          git commit --allow-empty -m "Updating orchest_examples_data.json"
-          git push
+          git commit -m "Updating orchest_examples_data.json" || :
+          git push || :
