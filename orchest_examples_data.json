@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-11-02T14:22:04.380175",
+    "creation_time": "2021-11-02T15:02:23.562726",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -19,7 +19,7 @@
             "description": "Use Image Super-Resolution (ISR) to enhance any image with different methods.",
             "forks_count": 1,
             "owner": "fruttasecca",
-            "stargazers_count": 3,
+            "stargazers_count": 2,
             "tags": [
                 "python",
                 "super-resolution",
