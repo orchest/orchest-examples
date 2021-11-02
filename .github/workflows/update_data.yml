@@ -32,8 +32,11 @@ jobs:
       - name: Process the existing README and update the orchest_examples_data.json file
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python scripts/readme_management.py process_file --file README.md --output orchest_examples_data.json
+        run: >
+          python scripts/readme_management.py process_file
+          --file README.md
+          --output orchest_examples_data.json
+          --avoid-unnecessary-write
 
       - run: |
           git config user.name github-actions

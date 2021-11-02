@@ -17,7 +17,7 @@ TOKEN = os.environ.get("GITHUB_TOKEN")
 _ENTRY_ANCHOR = "<!--o-->"
 _EXAMPLES_BEGIN_ANCHOR = "<!-- EXAMPLES_BEGIN -->"
 
-logging.basicConfig(format="%(levelname)s:\n%(message)s")
+logging.basicConfig(format="%(levelname)s:\n%(message)s", level=logging.INFO)
 
 # See https://github.com/actions/github-script/issues/1 :(.
 def log_escaped_error(obj: any) -> str:
@@ -177,6 +177,14 @@ if __name__ == "__main__":
     process_file_parser = subparsers.add_parser("process_file", help=help_msg)
     process_file_parser.add_argument("--file", type=str, required=True)
     process_file_parser.add_argument("--output", type=str, required=True)
+    process_file_parser.add_argument(
+        "--avoid-unnecessary-write",
+        action="store_true",
+        default=False,
+        help=(
+            "Do not overwrite the output file if there was no change "
+            "in the entries data."
+        ))
     args = parser.parse_args()
 
     if args.command == "check_file_validity":
@@ -205,5 +213,16 @@ if __name__ == "__main__":
                 entry["forks_count"] = api_data["forks_count"]
                 entry["stargazers_count"] = api_data["stargazers_count"]
                 output_json["entries"].append(entry)
+        if args.avoid_unnecessary_write:
+            try:
+                with open(output_path, "r") as previous_output_f:
+                    previous_data = json.load(previous_output_f)
+                    if previous_data["entries"] == output_json["entries"]:
+                        logging.info("Avoiding write, entries have't changed.")
+                        sys.exit(0)
+            # The file does not exist, so writing the file won't lead to
+            # an unnecessary update.
+            except FileNotFoundError:
+                pass
         with open(output_path, "w") as f:
             json.dump(output_json, f, sort_keys=True, indent=4)
