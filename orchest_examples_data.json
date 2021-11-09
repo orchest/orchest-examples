@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-11-02T15:02:23.562726",
+    "creation_time": "2021-11-09T11:27:39.473667",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -101,6 +101,19 @@
             ],
             "title": "Calling the Orchest SDK from Julia",
             "url": "https://github.com/orchest-examples/julia-orchest-sdk"
+        },
+        {
+            "description": "Specific example of using the QuickBooks OAuth API in Orchest, but can be used for any OAuth 2.0 authentication flow.",
+            "forks_count": 1,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "python",
+                "oauth",
+                "finance"
+            ],
+            "title": "OAuth QuickBooks example project",
+            "url": "https://github.com/ricklamers/orchest-quickbooks-oauth"
         }
     ]
 }
