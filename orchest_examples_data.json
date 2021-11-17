@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-11-17T13:07:31.111552",
+    "creation_time": "2021-11-17T14:02:23.770987",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -119,7 +119,7 @@
             "description": "This is an example project that demonstrates how to create a pipeline that consists of two phases of execution.",
             "forks_count": 0,
             "owner": "ricklamers",
-            "stargazers_count": 0,
+            "stargazers_count": 1,
             "tags": [
                 "python",
                 "streamlit"
