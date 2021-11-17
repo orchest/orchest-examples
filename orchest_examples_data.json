@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-11-17T14:02:23.770987",
+    "creation_time": "2021-11-17T15:54:01.421941",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -126,6 +126,19 @@
             ],
             "title": "Two phase pipeline + Streamlit",
             "url": "https://github.com/ricklamers/two-phase-pipeline-streamlit"
+        },
+        {
+            "description": "This pipeline classifies random text paragraphs found on websites linked to from random Wikipedia pages.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "python",
+                "scraping",
+                "streamlit"
+            ],
+            "title": "Scraped language classifier",
+            "url": "https://github.com/ricklamers/orchest-language-classifier"
         }
     ]
 }
