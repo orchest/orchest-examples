@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-12-12T08:02:45.223011",
+    "creation_time": "2021-12-21T17:16:01.593345",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -78,6 +78,19 @@
             ],
             "title": "Web Scraping using Photon",
             "url": "https://github.com/ricklamers/photon-orchest-pipeline"
+        },
+        {
+            "description": "Use web scraping, Meilisearch and PyWebIO for lightning fast comment search on HN.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "python",
+                "pywebio",
+                "scraping"
+            ],
+            "title": "Search HN comments with PyWebIO",
+            "url": "https://github.com/ricklamers/orchest-meilisearch-pywebio-hn"
         },
         {
             "description": "A pipeline showcasing how Python and R can be used within the same pipeline. It also shows how you can call the Orchest SDK from within R.",
