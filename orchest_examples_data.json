@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-12-21T17:32:19.256261",
+    "creation_time": "2021-12-21T17:39:52.551902",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -152,6 +152,20 @@
             ],
             "title": "Scraped language classifier",
             "url": "https://github.com/ricklamers/orchest-language-classifier"
+        },
+        {
+            "description": "Use popular python library, Deep_AutoViML to build multiple deep learning Keras models on any dataset, any size with this pipeline. Data must be in data folder and models are saved in your project folder.",
+            "forks_count": 0,
+            "owner": "rsesha",
+            "stargazers_count": 2,
+            "tags": [
+                "quickstart",
+                "keras",
+                "machine-learning",
+                "tensorflow"
+            ],
+            "title": "Deep_AutoViML Pipeline",
+            "url": "https://github.com/rsesha/deep_autoviml_pipeline"
         },
         {
             "description": "Use popular python library, AutoViz to visualize any dataset, any size with this pipeline. Data must be in data folder and charts are saved in AutoViz_Plots fodler.",
