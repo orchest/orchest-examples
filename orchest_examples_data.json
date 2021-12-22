@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-12-21T18:02:40.415096",
+    "creation_time": "2021-12-22T20:02:36.365135",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -169,9 +169,9 @@
         },
         {
             "description": "Use popular python library, AutoViz to visualize any dataset, any size with this pipeline. Data must be in data folder and charts are saved in AutoViz_Plots fodler.",
-            "forks_count": 0,
+            "forks_count": 1,
             "owner": "rsesha",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "tags": [
                 "quickstart",
                 "auto-visualization",
