@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-12-22T20:02:36.365135",
+    "creation_time": "2021-12-27T01:26:16.212587",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -70,7 +70,7 @@
         },
         {
             "description": "A pipeline that uses the open source Photon library for webscraping. Use this as a starting point for a data ingest pipeline.",
-            "forks_count": 0,
+            "forks_count": 1,
             "owner": "ricklamers",
             "stargazers_count": 0,
             "tags": [
@@ -169,7 +169,7 @@
         },
         {
             "description": "Use popular python library, AutoViz to visualize any dataset, any size with this pipeline. Data must be in data folder and charts are saved in AutoViz_Plots fodler.",
-            "forks_count": 1,
+            "forks_count": 2,
             "owner": "rsesha",
             "stargazers_count": 2,
             "tags": [
