@@ -1,5 +1,5 @@
 {
-    "creation_time": "2021-12-27T01:26:16.212587",
+    "creation_time": "2021-12-28T12:03:01.299561",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -81,9 +81,9 @@
         },
         {
             "description": "Use web scraping, Meilisearch and PyWebIO for lightning fast comment search on HN.",
-            "forks_count": 0,
+            "forks_count": 1,
             "owner": "ricklamers",
-            "stargazers_count": 0,
+            "stargazers_count": 1,
             "tags": [
                 "python",
                 "pywebio",
