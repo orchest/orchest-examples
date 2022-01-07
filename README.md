@@ -27,7 +27,7 @@ You could also add a badge in your repo by adding the following script in your `
 ![Open in Orchest example](imgs/open_in_orchest.svg)
 
 ```markdown
-[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
+![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
 ```
 
 
