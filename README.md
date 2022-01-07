@@ -22,6 +22,14 @@ have the following format (mind the spaces!):
 
 ```- [title](github url) -<!--o--> description (length limit of 280) <!--o-->- `tag1` `tag2` `tag3` (up to five tags)```
 
+You could also add a badge in your repo by adding the following script in your `README.md` (NOTE: you need to replace `your-repo-url` with your repo URL).
+
+![Open in Orchest example](imgs/open_in_orchest.svg)
+
+```markdown
+[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
+```
+
 
 And thank you 💗!
 
