@@ -17,6 +17,7 @@ author, the number of stars and forks of the repo. If you would like to be part
 of this, make a PR!
 
 ## Contributing
+
 Make a PR that adds a new entry to the list of examples in this README. This entry must
 have the following format (mind the spaces!):
 
@@ -24,16 +25,18 @@ have the following format (mind the spaces!):
 
 You could also add a badge in your repo by adding the following script in your `README.md` (NOTE: you need to replace `your-repo-url` with your repo URL).
 
-![Open in Orchest example](imgs/open_in_orchest.svg)
-
 ```markdown
-[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
+[![Open in Orchest](https://github.com/orchest/orchest/raw/master/docs/source/img/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
 ```
 
+An example badge to import our [quickstart](https://github.com/orchest/quickstart) repo in Orchest:
+
+[![Open in Orchest](https://github.com/orchest/orchest/raw/master/docs/source/img/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=https://github.com/orchest/quickstart)
 
 And thank you 💗!
 
 ## Examples
+
 <!-- EXAMPLES_BEGIN -->
 - [Quickstart Pipeline](https://github.com/orchest/quickstart) -<!--o--> A quickstart pipeline that trains some simple models in parallel. <!--o-->-   `quickstart` `machine-learning` `training` `scikit-learn`
 - [Image Super-Resolution](https://github.com/fruttasecca/image_super_resolution) -<!--o--> Use Image Super-Resolution (ISR) to enhance any image with different methods. <!--o-->-   `python` `super-resolution` `machine-learning` `computer-vision`
