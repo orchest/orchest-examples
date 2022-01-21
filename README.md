@@ -26,12 +26,12 @@ have the following format (mind the spaces!):
 You could also add a badge in your repo by adding the following script in your `README.md` (NOTE: you need to replace `your-repo-url` with your repo URL).
 
 ```markdown
-[![Open in Orchest](https://github.com/orchest/orchest/raw/master/docs/source/img/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
+[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
 ```
 
 An example badge to import our [quickstart](https://github.com/orchest/quickstart) repo in Orchest:
 
-[![Open in Orchest](https://github.com/orchest/orchest/raw/master/docs/source/img/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=https://github.com/orchest/quickstart)
+[![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=https://github.com/orchest/quickstart)
 
 And thank you 💗!
 
