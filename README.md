@@ -39,6 +39,7 @@ And thank you 💗!
 
 <!-- EXAMPLES_BEGIN -->
 - [Quickstart Pipeline](https://github.com/orchest/quickstart) -<!--o--> A quickstart pipeline that trains some simple models in parallel. <!--o-->-   `quickstart` `machine-learning` `training` `scikit-learn`
+- [Orchest + dbt](https://github.com/ricklamers/orchest-dbt) -<!--o--> Use dbt inside of Orchest for your materialized views. <!--o-->-   `python` `dbt` `sql`
 - [Image Super-Resolution](https://github.com/fruttasecca/image_super_resolution) -<!--o--> Use Image Super-Resolution (ISR) to enhance any image with different methods. <!--o-->-   `python` `super-resolution` `machine-learning` `computer-vision`
 - [Coqui TTS](https://github.com/ricklamers/orchest-coqui-tts) -<!--o--> Generate an audio snippet from a text sample and send it as a message on Slack/Discord. <!--o-->- `tts` `audio` `machine-learning`
 - [Redis and Postgres](https://github.com/ricklamers/orchest-redis-postgres) -<!--o--> An example of how to use Redis and Postgres in an Orchest pipeline. <!--o-->- `postgres` `services`
