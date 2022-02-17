@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-02-07T10:02:37.249143",
+    "creation_time": "2022-02-17T09:39:10.176745",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -14,6 +14,19 @@
             ],
             "title": "Quickstart Pipeline",
             "url": "https://github.com/orchest/quickstart"
+        },
+        {
+            "description": "Use dbt inside of Orchest for your materialized views.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "python",
+                "dbt",
+                "sql"
+            ],
+            "title": "Orchest + dbt",
+            "url": "https://github.com/ricklamers/orchest-dbt"
         },
         {
             "description": "Use Image Super-Resolution (ISR) to enhance any image with different methods.",
