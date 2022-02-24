@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-02-24T15:02:40.585196",
+    "creation_time": "2022-02-24T16:02:45.725894",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -19,7 +19,7 @@
             "description": "Use dbt inside of Orchest for your materialized views.",
             "forks_count": 1,
             "owner": "ricklamers",
-            "stargazers_count": 0,
+            "stargazers_count": 1,
             "tags": [
                 "python",
                 "dbt",
