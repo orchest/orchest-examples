@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-02-24T14:23:27.302106",
+    "creation_time": "2022-02-24T14:24:20.405662",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -68,7 +68,7 @@
             "url": "https://github.com/ricklamers/orchest-redis-postgres"
         },
         {
-            "description": "Search scraped comments with Semantic Vector Search.",
+            "description": "Search scraped comments with semantic vector search.",
             "forks_count": 0,
             "owner": "ricklamers",
             "stargazers_count": 0,
