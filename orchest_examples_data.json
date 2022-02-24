@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-02-17T11:02:29.774977",
+    "creation_time": "2022-02-24T14:23:27.302106",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -66,6 +66,20 @@
             ],
             "title": "Redis and Postgres",
             "url": "https://github.com/ricklamers/orchest-redis-postgres"
+        },
+        {
+            "description": "Search scraped comments with Semantic Vector Search.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "nlp",
+                "streamlit",
+                "search",
+                "scraping"
+            ],
+            "title": "Weaviate + Orchest",
+            "url": "https://github.com/ricklamers/orchest-weaviate-tweakers-search"
         },
         {
             "description": "An example pipeline showing how to use multiple languages in a same Orchest pipeline.",
