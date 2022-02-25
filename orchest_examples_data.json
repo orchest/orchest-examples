@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-02-24T16:02:45.725894",
+    "creation_time": "2022-02-25T14:12:45.776546",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -206,6 +206,20 @@
             ],
             "title": "AutoViz Pipeline",
             "url": "https://github.com/rsesha/autoviz_pipeline"
+        },
+        {
+            "description": "Spin up a Coiled cluster and run an xgboost train loop on it. Separate Coiled cluster creation step to make it re-usable.",
+            "forks_count": 0,
+            "owner": "ricklamers",
+            "stargazers_count": 0,
+            "tags": [
+                "dask",
+                "coiled",
+                "xgboost",
+                "machine-learning"
+            ],
+            "title": "Orchest + Coiled: spawn cluster and run XGBoost",
+            "url": "https://github.com/ricklamers/orchest-coiled-cluster-xgboost"
         }
     ]
 }
