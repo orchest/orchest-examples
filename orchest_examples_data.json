@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-02-27T17:02:41.644810",
+    "creation_time": "2022-03-18T09:31:19.213767",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -220,6 +220,18 @@
             ],
             "title": "Orchest + Coiled: spawn cluster and run XGBoost",
             "url": "https://github.com/ricklamers/orchest-coiled-cluster-xgboost"
+        },
+        {
+            "description": "Experimenting with PyArrow in Orchest",
+            "forks_count": 0,
+            "owner": "astrojuanlu",
+            "stargazers_count": 0,
+            "tags": [
+                "arrow",
+                "pyarrow"
+            ],
+            "title": "Experimenting with PyArrow",
+            "url": "https://github.com/astrojuanlu/orchest-pyarrow"
         }
     ]
 }
