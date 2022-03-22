@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-03-22T14:02:39.607320",
+    "creation_time": "2022-03-22T15:02:31.323932",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -57,7 +57,7 @@
         },
         {
             "description": "An example of how to use Redis and Postgres in an Orchest pipeline.",
-            "forks_count": 1,
+            "forks_count": 2,
             "owner": "ricklamers",
             "stargazers_count": 0,
             "tags": [
@@ -133,7 +133,7 @@
         },
         {
             "description": "An example pipeline that uses PyCall to be able to call the Orchest SDK from within Julia.",
-            "forks_count": 2,
+            "forks_count": 3,
             "owner": "orchest-examples",
             "stargazers_count": 0,
             "tags": [
