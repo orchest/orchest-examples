@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-04-07T22:02:37.669272",
+    "creation_time": "2022-04-08T12:38:19.027891",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -14,6 +14,17 @@
             ],
             "title": "Quickstart Pipeline",
             "url": "https://github.com/orchest/quickstart"
+        },
+        {
+            "description": "An minimal example of how to use a fileystem based global key value store, it uses a simple Python dictionary with SQLite as the backing store.",
+            "forks_count": 0,
+            "owner": "orchest-examples",
+            "stargazers_count": 0,
+            "tags": [
+                "utility"
+            ],
+            "title": "Global Key Value store",
+            "url": "https://github.com/orchest-examples/global-key-value-store"
         },
         {
             "description": "Use dbt inside of Orchest for your materialized views.",
