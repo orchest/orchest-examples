@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-04-08T12:38:19.027891",
+    "creation_time": "2022-04-12T14:02:38.383756",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -195,7 +195,7 @@
             "description": "Use popular python library, Deep_AutoViML to build multiple deep learning Keras models on any dataset, any size with this pipeline. Data must be in data folder and models are saved in your project folder.",
             "forks_count": 2,
             "owner": "rsesha",
-            "stargazers_count": 2,
+            "stargazers_count": 3,
             "tags": [
                 "quickstart",
                 "keras",
@@ -209,7 +209,7 @@
             "description": "Use popular python library, AutoViz to visualize any dataset, any size with this pipeline. Data must be in data folder and charts are saved in AutoViz_Plots fodler.",
             "forks_count": 3,
             "owner": "rsesha",
-            "stargazers_count": 2,
+            "stargazers_count": 3,
             "tags": [
                 "quickstart",
                 "auto-visualization",
