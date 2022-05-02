@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-04-19T10:02:32.860306",
+    "creation_time": "2022-05-02T11:52:36.103171",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -243,6 +243,18 @@
             ],
             "title": "Experimenting with PyArrow",
             "url": "https://github.com/astrojuanlu/orchest-pyarrow"
+        },
+        {
+            "description": "Out-of-core processing with Vaex in Orchest",
+            "forks_count": 0,
+            "owner": "astrojuanlu",
+            "stargazers_count": 0,
+            "tags": [
+                "vaex",
+                "parquet"
+            ],
+            "title": "Out-of-core processing with Vaex",
+            "url": "https://github.com/astrojuanlu/orchest-vaex"
         }
     ]
 }
