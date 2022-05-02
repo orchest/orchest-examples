@@ -57,3 +57,4 @@ And thank you 💗!
 - [AutoViz Pipeline](https://github.com/rsesha/autoviz_pipeline) -<!--o--> Use popular python library, AutoViz to visualize any dataset, any size with this pipeline. Data must be in data folder and charts are saved in AutoViz_Plots fodler. <!--o-->- `quickstart` `auto-visualization` `machine-learning`
 - [Orchest + Coiled: spawn cluster and run XGBoost](https://github.com/ricklamers/orchest-coiled-cluster-xgboost) -<!--o--> Spin up a Coiled cluster and run an xgboost train loop on it. Separate Coiled cluster creation step to make it re-usable. <!--o-->- `dask` `coiled` `xgboost` `machine-learning`
 - [Experimenting with PyArrow](https://github.com/astrojuanlu/orchest-pyarrow) -<!--o--> Experimenting with PyArrow in Orchest <!--o-->- `arrow` `pyarrow`
+- [Out-of-core processing with Vaex](https://github.com/astrojuanlu/orchest-vaex) -<!--o--> Out-of-core processing with Vaex in Orchest <!--o-->- `vaex` `parquet`
