@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-05-08T11:02:30.921917",
+    "creation_time": "2022-05-11T15:02:43.611508",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -236,7 +236,7 @@
             "description": "Experimenting with PyArrow in Orchest",
             "forks_count": 0,
             "owner": "astrojuanlu",
-            "stargazers_count": 1,
+            "stargazers_count": 2,
             "tags": [
                 "arrow",
                 "pyarrow"
