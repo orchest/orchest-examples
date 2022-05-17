@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-05-11T15:02:43.611508",
+    "creation_time": "2022-05-17T10:42:55.518403",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -255,6 +255,19 @@
             ],
             "title": "Out-of-core processing with Vaex",
             "url": "https://github.com/astrojuanlu/orchest-vaex"
+        },
+        {
+            "description": "Connecting to an external database using SQLAlchemy",
+            "forks_count": 0,
+            "owner": "astrojuanlu",
+            "stargazers_count": 0,
+            "tags": [
+                "sqlalchemy",
+                "postgresql",
+                "databases"
+            ],
+            "title": "Connecting to an external database using SQLAlchemy",
+            "url": "https://github.com/astrojuanlu/orchest-sqlalchemy"
         }
     ]
 }
