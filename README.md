@@ -39,7 +39,7 @@ And thank you 💗!
 
 <!-- EXAMPLES_BEGIN -->
 - [Quickstart Pipeline](https://github.com/orchest/quickstart) -<!--o--> A quickstart pipeline that trains some simple models in parallel. <!--o-->-   `quickstart` `machine-learning` `training` `scikit-learn`
-- [Global Key Value store](https://github.com/orchest-examples/global-key-value-store) -<!--o--> An minimal example of how to use a fileystem based global key value store, it uses a simple Python dictionary with SQLite as the backing store. <!--o-->-   `utility`
+- [Global Key Value store](https://github.com/orchest-examples/global-key-value-store) -<!--o--> A minimal example of how to use a fileystem based global key value store, it uses a simple Python dictionary with SQLite as the backing store. <!--o-->-   `utility`
 - [Orchest + dbt](https://github.com/ricklamers/orchest-dbt) -<!--o--> Use dbt inside of Orchest for your materialized views. <!--o-->-   `python` `dbt` `sql`
 - [Image Super-Resolution](https://github.com/fruttasecca/image_super_resolution) -<!--o--> Use Image Super-Resolution (ISR) to enhance any image with different methods. <!--o-->-   `python` `super-resolution` `machine-learning` `computer-vision`
 - [Coqui TTS](https://github.com/ricklamers/orchest-coqui-tts) -<!--o--> Generate an audio snippet from a text sample and send it as a message on Slack/Discord. <!--o-->- `tts` `audio` `machine-learning`
