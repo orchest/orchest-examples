@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-05-20T15:02:45.058610",
+    "creation_time": "2022-06-03T10:12:10.746591",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -16,7 +16,7 @@
             "url": "https://github.com/orchest/quickstart"
         },
         {
-            "description": "An minimal example of how to use a fileystem based global key value store, it uses a simple Python dictionary with SQLite as the backing store.",
+            "description": "A minimal example of how to use a fileystem based global key value store, it uses a simple Python dictionary with SQLite as the backing store.",
             "forks_count": 0,
             "owner": "orchest-examples",
             "stargazers_count": 0,
