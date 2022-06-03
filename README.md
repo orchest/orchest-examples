@@ -59,3 +59,4 @@ And thank you 💗!
 - [Experimenting with PyArrow](https://github.com/astrojuanlu/orchest-pyarrow) -<!--o--> Experimenting with PyArrow in Orchest <!--o-->- `arrow` `pyarrow`
 - [Out-of-core processing with Vaex](https://github.com/astrojuanlu/orchest-vaex) -<!--o--> Out-of-core processing with Vaex in Orchest <!--o-->- `vaex` `parquet`
 - [Connecting to an external database using SQLAlchemy](https://github.com/astrojuanlu/orchest-sqlalchemy) -<!--o--> Connecting to an external database using SQLAlchemy <!--o-->- `sqlalchemy` `postgresql` `databases`
+- [Reading +1M Stack Overflow questions with Polars](https://github.com/astrojuanlu/orchest-polars) -<!--o--> Reading +1M Stack Overflow questions with Polars <!--o-->- `polars` `dataframes` `pandas`
