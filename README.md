@@ -18,16 +18,19 @@ of this, make a PR!
 
 ## Contributing
 
-Make a PR that adds a new entry to the list of examples in this README. This entry must
+Make a PR that adds a new entry to the list of examples in this `README.md`. This entry must
 have the following format (mind the spaces!):
 
 ```- [title](github url) -<!--o--> description (length limit of 280) <!--o-->- `tag1` `tag2` `tag3` (up to five tags)```
 
-You could also add a badge in your repo by adding the following script in your `README.md` (NOTE: you need to replace `your-repo-url` with your repo URL).
+Help other users try out your pipeline with one click by adding a badge to the `README.md` of your
+repository, using:
 
 ```markdown
 [![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
 ```
+
+> NOTE: you need to replace `your-repo-url` with your repo URL.
 
 An example badge to import our [quickstart](https://github.com/orchest/quickstart) repo in Orchest:
 
