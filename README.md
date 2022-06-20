@@ -30,7 +30,7 @@ repository, using:
 [![Open in Orchest](https://github.com/orchest/orchest-examples/raw/main/imgs/open_in_orchest.svg)](https://cloud.orchest.io/?import_url=your-repo-url)
 ```
 
-> NOTE: you need to replace `your-repo-url` with your repo URL.
+> **Note**: you need to replace `your-repo-url` with your repo URL.
 
 An example badge to import our [quickstart](https://github.com/orchest/quickstart) repo in Orchest:
 
