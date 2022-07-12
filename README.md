@@ -42,6 +42,7 @@ And thank you 💗!
 
 <!-- EXAMPLES_BEGIN -->
 - [Quickstart Pipeline](https://github.com/orchest/quickstart) -<!--o--> A quickstart pipeline that trains some simple models in parallel. <!--o-->-   `quickstart` `machine-learning` `training` `scikit-learn`
+- [Google Search Console API](https://github.com/ricklamers/orchest-search-console-api-example) -<!--o--> A minimal example of how to fetch Google Search Console data through their Python API. <!--o-->- `api` `google`
 - [Global Key Value store](https://github.com/orchest-examples/global-key-value-store) -<!--o--> A minimal example of how to use a fileystem based global key value store, it uses a simple Python dictionary with SQLite as the backing store. <!--o-->-   `utility`
 - [Orchest + dbt](https://github.com/ricklamers/orchest-dbt) -<!--o--> Use dbt inside of Orchest for your materialized views. <!--o-->-   `python` `dbt` `sql`
 - [Image Super-Resolution](https://github.com/fruttasecca/image_super_resolution) -<!--o--> Use Image Super-Resolution (ISR) to enhance any image with different methods. <!--o-->-   `python` `super-resolution` `machine-learning` `computer-vision`
