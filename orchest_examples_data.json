@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-07-13T09:02:42.863337",
+    "creation_time": "2022-07-19T15:08:05.453410",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -293,6 +293,19 @@
             ],
             "title": "Reading +1M Stack Overflow questions with Polars",
             "url": "https://github.com/astrojuanlu/orchest-polars"
+        },
+        {
+            "description": "Running SQL statements directly in Jupyter using ipython-sql",
+            "forks_count": 0,
+            "owner": "astrojuanlu",
+            "stargazers_count": 1,
+            "tags": [
+                "postgresql",
+                "databases",
+                "sql"
+            ],
+            "title": "Running SQL statements directly in Jupyter using ipython-sql",
+            "url": "https://github.com/astrojuanlu/orchest-ipython-sql"
         }
     ]
 }
