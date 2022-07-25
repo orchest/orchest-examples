@@ -1,5 +1,5 @@
 {
-    "creation_time": "2022-07-19T15:08:05.453410",
+    "creation_time": "2022-07-25T15:47:33.793371",
     "entries": [
         {
             "description": "A quickstart pipeline that trains some simple models in parallel.",
@@ -306,6 +306,21 @@
             ],
             "title": "Running SQL statements directly in Jupyter using ipython-sql",
             "url": "https://github.com/astrojuanlu/orchest-ipython-sql"
+        },
+        {
+            "description": "Creating an ELT pipeline in Orchest that extracts data from PostgreSQL and loads it to BigQuery using meltano and dbt",
+            "forks_count": 0,
+            "owner": "astrojuanlu",
+            "stargazers_count": 0,
+            "tags": [
+                "elt",
+                "pipeline",
+                "meltano",
+                "dbt",
+                "bigquery"
+            ],
+            "title": "ELT pipeline in Orchest with meltano and dbt",
+            "url": "https://github.com/astrojuanlu/orchest-elt-meltano-dbt"
         }
     ]
 }
