@@ -65,3 +65,4 @@ And thank you 💗!
 - [Connecting to an external database using SQLAlchemy](https://github.com/astrojuanlu/orchest-sqlalchemy) -<!--o--> Connecting to an external database using SQLAlchemy <!--o-->- `sqlalchemy` `postgresql` `databases`
 - [Reading +1M Stack Overflow questions with Polars](https://github.com/astrojuanlu/orchest-polars) -<!--o--> Reading +1M Stack Overflow questions with Polars <!--o-->- `polars` `dataframes` `pandas`
 - [Running SQL statements directly in Jupyter using ipython-sql](https://github.com/astrojuanlu/orchest-ipython-sql) -<!--o--> Running SQL statements directly in Jupyter using ipython-sql <!--o-->- `postgresql` `databases` `sql`
+- [ELT pipeline in Orchest with meltano and dbt](https://github.com/astrojuanlu/orchest-elt-meltano-dbt) -<!--o--> Creating an ELT pipeline in Orchest that extracts data from PostgreSQL and loads it to BigQuery using meltano and dbt <!--o-->- `elt` `pipeline` `meltano` `dbt` `postgresql` `bigquery`
